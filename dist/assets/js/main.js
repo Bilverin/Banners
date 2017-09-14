@@ -6,6 +6,9 @@ $(document).ready(function() {
 	} else {
 		$('body').removeClass('vert');
 	}
+
+	// mask
+	$(".js-mask").mask("+7 (999) 999-9999");
 });
 
 $(window).resize(function() {

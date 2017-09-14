@@ -49,7 +49,8 @@ gulp.task('sass', function () {
 // libs js
 gulp.task('js:libs', function () {
 	gulp.src([
-		'bower_components/jquery/dist/jquery.min.js'
+		'bower_components/jquery/dist/jquery.min.js',
+		'bower_components/jquery.maskedinput/dist/jquery.maskedinput.min.js'
 		])
 	.pipe(concat('libs.min.js'))
 	.pipe(uglify())
